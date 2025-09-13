@@ -9,6 +9,7 @@ Visit my portfolio: https://anandbogeportfolio.netlify.app/
 - HTML
 - CSS
 - JavaScript
+- Java
 - React
 - SQL
 - Git/Github
