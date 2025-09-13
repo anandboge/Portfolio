@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary Meta Tags -->
+    <title>Daniel Ezekiel - Software Engineer</title>
+    <meta name="title" content="Anand Boge - Frontend Engineer" />
+    <meta name="keywords" content="Anand Boge, Web Developer" />
+
+    <!-- site favicon link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <script defer type="text/javascript" src="js/email.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/">
+          <img src="img/logo.png" alt="Logo" class="logo" />
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-link">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-link">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="nav-link">
+            <a
+              href="https://drive.google.com/file/d/1JfDwDSo31ZScWxwmvOuH26UIWM_fr3NR/view?usp=drive_link"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+
+          <li class="nav-social-links social-links">
+            <a
+              href="https://github.com/anandboge"
+              target="_blank"
+              class="social github"
+            >
+              <img src="img/github.svg" alt="GitHub Icon" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/anandboge/"
+              target="_blank"
+              class="social linkedin"
+            >
+              <img src="img/in.svg" alt="LinkedIn Icon" />
+            </a>
+          </li>
+        </ul>
+
+        <button class="hamburger" type="button" name="menu button">
+          <div class="menu-bar"></div>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <span class="salutation">Hi there!</span>
+        <h1>I am <span class="name-highlight">Anand Boge</span>.</h1>
+
+        <p class="declaration">Self-taught Frontend Developer</p>
+
+        <p>
+          I build websites with a focus on responsive design and accessibility.
+        </p>
+
+        <div class="cta-box">
+          <a href="#contact" class="cta cta1">Reach out</a>
+          <a
+            href="https://drive.google.com/file/d/1JfDwDSo31ZScWxwmvOuH26UIWM_fr3NR/view?usp=drive_link"
+            target="_blank"
+            class="cta cta2"
+            >Resume</a
+          >
+        </div>
+      </section>
+
+      <aside class="main-social-links social-links">
+        <a
+          href="https://github.com/anandboge"
+          target="_blank"
+          class="social github"
+        >
+          <img src="img/github.svg" alt="GitHub Icon" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/anandboge/"
+          target="_blank"
+          class="social linkedin"
+        >
+          <img src="img/in.svg" alt="LinkedIn Icon" />
+        </a>
+
+        <!-- <a
+          href="https://twitter.com/"
+          target="_blank"
+          class="social twitter"
+        >
+          <img src="img/twitter.svg" alt="Twitter icon" />
+        </a> -->
+      </aside>
+    </main>
+
+    <section id="about">
+      <div class="separator">
+        <h2>About</h2>
+      </div>
+
+      <div>
+        <p class="about-text">
+          I'm a self-taught web developer, who loves to craft interactive
+          designs with modern web technologies. I am a hardworking, honest
+          individual, always willing to learn new skills.
+          <br />
+          <br />
+          I am passionate about building excellent software that improves the
+          lives of those around me. I specialize in creating
+          <span>efficient</span>, <span>accessible</span> and
+          <span>creative solutions</span>/<span>experiences</span> to one and
+          all.
+          <br />
+          <br />
+          Outside my regular developer routine, I enjoy listening to music,
+          gaming or reading about space and technology.
+          <br />
+          <br />
+          These are a few tools and technologies I am familiar with which I have
+          also been working with as well.
+        </p>
+
+        <ul>
+          <li class="tool">HTML</li>
+          <li class="tool">CSS</li>
+          <li class="tool">JavaScript</li>
+          <li class="tool">React</li>
+          <li class="tool">Bootstrap</li>
+          <li class="tool">SQL</li>
+          <li class="tool">Java</li>
+          <li class="tool">Linux</li>
+          <li class="tool">Git/Github</li>
+          <li class="tool">Figma</li>
+        </ul>
+      </div>
+
+      <div class="img-box">
+        <img src="img/anand_boge.png" class="profile-img" alt="Profile Image" />
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="featured-projects-box">
+        <div class="separator">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project project1">
+          <div class="project-details-box">
+            <div class="project-main-info">
+              <span>Project #1</span>
+              <h3>Weather Forecast</h3>
+              <p>
+                Developed a responsive weather app using HTML, CSS, and
+                JavaScript, integrating a third-party API to display real-time
+                weather data, hourly forecasts, and for multiple locations,
+                enhancing user accessibility to weather information
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/anandboge/weather_app"
+                  target="_blank"
+                >
+                  <img src="img/github.svg" alt="github repo link icon" />
+                </a>
+                <a
+                  href="https://simpleweatherforecastsearch.netlify.app/"
+                  target="_blank"
+                >
+                  <img src="img/link.svg" alt="live site demo link icon" />
+                </a>
+              </div>
+            </div>
+
+            <div class="project-tools">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+
+          <div class="project-image-box">
+            <a
+              href="https://simpleweatherforecastsearch.netlify.app/"
+              target="_blank"
+              class="project-img-link"
+            >
+              <img src="img/project1.webp" alt="Project Preview Image" />
+            </a>
+          </div>
+        </div>
+
+        <div class="project project2">
+          <div class="project-details-box">
+            <div class="project-main-info">
+              <span>Project #2</span>
+              <h3>Cryptocurrency</h3>
+              <p>
+                A crypto wallet app is a kind of digital tool that caters to
+                users in multiple ways be it managing, storing, or transacting
+                with cryptocurrencies.
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/anandboge/cryptocurrency-app"
+                  target="_blank"
+                  title="Github Link"
+                >
+                  <img src="img/github.svg" alt="github repo link icon" />
+                </a>
+                <a
+                  href="https://cryptocurrencyappdesign.netlify.app/"
+                  target="_blank"
+                  title="Live Link"
+                >
+                  <img src="img/link.svg" alt="live site demo link icon" />
+                </a>
+              </div>
+            </div>
+
+            <div class="project-tools">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+
+          <div class="project-image-box">
+            <a
+              href="https://cryptocurrencyappdesign.netlify.app/"
+              target="_blank"
+              class="project-img-link"
+            >
+              <img src="img/project2.png" alt="Project Preview Image" />
+            </a>
+          </div>
+        </div>
+
+        <div class="project project3">
+          <div class="project-details-box">
+            <div class="project-main-info">
+              <span>Project #3</span>
+              <h3>Text to Speech Generator</h3>
+              <p>
+                A text-to-speech (TTS) generator app converts written text into
+                spoken audio, allowing users to "listen" to content instead of
+                reading it. These apps are used for various purposes, including
+                helping individuals with reading difficulties, creating
+                voiceovers for videos, making content accessible for busy users,
+                and assisting content creators.
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/anandboge/Text-to-Speech-Generator"
+                  target="_blank"
+                  title="Github Link"
+                >
+                  <img src="img/github.svg" alt="github repo link icon" />
+                </a>
+                <a
+                  href="https://simpletexttospeechgenerator.netlify.app/"
+                  target="_blank"
+                >
+                  <img src="img/link.svg" alt="live site demo link icon" />
+                </a>
+              </div>
+            </div>
+
+            <div class="project-tools">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+
+          <div class="project-image-box">
+            <a
+              href="https://simpletexttospeechgenerator.netlify.app/"
+              target="_blank"
+              class="project-img-link"
+            >
+              <img src="img/project3.png" alt="Project Preview Image" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <span>Next steps?</span>
+
+        <h4>Don&apos;t be a Stranger!</h4>
+
+        <p>
+          Shoot me an email if you think we&apos;re a great fit and would like
+          to work with me and let&apos;s have a great time while we&apos;re at
+          it.
+        </p>
+
+        <a href="mailto:anandreddyboge@gmail.com" class="cta cta2"
+          >Get in Touch</a
+        >
+      </div>
+
+      <aside class="contact-social-links social-links">
+        <a
+          href="https://github.com/anandboge"
+          target="_blank"
+          class="social github"
+        >
+          <img src="img/github.svg" alt="GitHub Icon" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/anandboge/"
+          target="_blank"
+          class="social linkedin"
+        >
+          <img src="img/in.svg" alt="LinkedIn Icon" />
+        </a>
+      </aside>
+    </section>
+
+    <footer>
+      <p>designed and developed by <span>Anand Boge</span></p>
+    </footer>
+  </body>
+</html>
